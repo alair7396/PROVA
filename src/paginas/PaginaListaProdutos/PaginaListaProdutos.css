@@ -1,0 +1,18 @@
+.padrao{
+    display: flex;
+    flex-direction: column;
+    
+}
+.padrao2{
+    
+    background-color: bisque;
+}
+.padrao3{
+    display: flex;
+    justify-content: end;
+    
+}
+.padrao4{
+   
+    background-color: brown;
+}
