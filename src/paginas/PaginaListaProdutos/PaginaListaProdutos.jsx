@@ -14,7 +14,6 @@ const PaginaListaProdutos=()=>{
     const input2=(e)=>{
         setPreco(e.target.value)
     }
-    
     const botao=()=>{
         if (nome==''||preco=='') {
             alert('preencha os dois campos')
@@ -28,7 +27,7 @@ const PaginaListaProdutos=()=>{
     }
     const remover=(index)=>{
         const produto = lista[index];
-        if (confirm(`Tem certeza que deseja excluir? ${produto.nome}?`
+        if (confirm(`Tem certeza que deseja excluir o item (${produto.nome})?`
     )){const atualizar=([...lista])
         atualizar.splice(index,1)
         setLista([...atualizar])}
